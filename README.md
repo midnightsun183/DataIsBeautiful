@@ -18,7 +18,8 @@ Create and save the following HTML file as “fallback.html”:
 <canvas width="640" height="3250"></canvas>
 <script>
 
-var context = document.querySelector("canvas").getContext("2d");
+var canvas = document.querySelector("canvas"),
+    context = canvas.getContext("2d");
 
 var image = new Image;
 image.src = "fallback.svg";
