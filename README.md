@@ -1,4 +1,4 @@
-Say you have an SVG built dynamically on the client by [D3](http://d3js.org). Now say you want to save it to a static PNG as a fallback for old browsers. There are lots of ways to do this using alternative renderers (such as [Batik](http://xmlgraphics.apache.org/batik/) and [PhantomJS](http://phantomjs.org/)), but what if you want your browser to do it, so that you the static PNG matches the dynamic SVG exactly, down to the subpixel?
+Say you have an SVG built dynamically on the client by [D3](http://d3js.org). Now say you want to save it to a static PNG as a fallback for old browsers. There are lots of ways to do this using alternative renderers (such as [Batik](http://xmlgraphics.apache.org/batik/) and [PhantomJS](http://phantomjs.org/)), but what if you want your browser to do it, so that you the static PNG matches the dynamic SVG exactly, down to the subpixel, including transparency?
 
 Here’s how.
 
