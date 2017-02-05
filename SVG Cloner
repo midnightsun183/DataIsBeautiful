@@ -1,6 +1,10 @@
-The following is a list of webistes or files that will convert SVG files:
+The following is a list of webistes or files that will manipulate SVG files:
 
-//GitHib https://gist.github.com/mbostock/6466603
+//General
+GitHib https://gist.github.com/mbostock/6466603
 
 //HTML based
 https://runemadsen.com/svg-converter/
+
+//Browser
+http://nytimes.github.io/svg-crowbar/
